@@ -1,0 +1,45 @@
+.topmenu {
+	width:	100%;
+	min-height: 45px;
+	background-image: url(../../images/topmenu/background.png);
+	background-repeat:repeat-x;
+	box-shadow: 1px 1px 12px #555;
+	margin-bottom:25px;
+}
+
+.iconetopmenu {
+	padding-top: 13px;
+	padding-bottom: 13px;
+	padding-left: 17px;
+	padding-right: 17px;
+}
+
+.dividertopmenu {
+	padding-top: 4px;
+}
+
+.dividerbadgetopmenu {
+	padding-top: 4px;
+	padding-left: 4px;
+}
+
+.itemtopmenu {
+	color: #fff;
+	padding-top: 13px;
+	padding-right: 6px;
+}
+
+.badgetopmenu {
+	color:	#fff;
+	background: #e7293b;
+	border-radius: 3px;
+	box-shadow: 1px 1px 1px black;
+    height: 16px; 
+    padding: 3px 8px 3px 8px;
+    text-align: center;
+    min-width: 16px;
+}
+
+.btntopmenu {
+	align: right;	
+}
