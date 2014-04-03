@@ -5,3 +5,6 @@ http://dbmwebdesign.fr/Tutos/rwd/creer-menu-responsive.html
 http://fr.openclassrooms.com/informatique/cours/des-applications-ultra-rapides-avec-node-js/le-framework-express-js
 http://blog.angularjs.org/2012/11/angularjs-example-applications.html
 http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/
+
+Ecran de login:
+http://angularjstech.blogspot.fr/2013/10/how-to-create-login-form-app-using.html
