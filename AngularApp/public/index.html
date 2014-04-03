@@ -18,10 +18,10 @@
 <!-- SET THE CONTROLLER AND GET ALL TODOS -->
 <body ng-controller="mainController">
 	<div class="topmenu">
-		<img src="images/topmenu/icones/dashboard.png" class="iconetopmenu">
+		<!-- <img src="images/topmenu/icones/dashboard.png" class="iconetopmenu"> -->
 		<img src="images/topmenu/divider.png" class="dividertopmenu">
 		<a href="#" class="itemtopmenu"><img src="images/topmenu/icones/inbox.png" class="iconetopmenu">Inbox</a>
-		<span class="badgetopmenu">{{ todos.length }}</span>
+		<span class="badgetopmenu" ng-show="todos.length > 0">{{ todos.length }}</span>
 		<img src="images/topmenu/divider.png" class="dividerbadgetopmenu">
 		<a href="#" class="itemtopmenu"><img src="images/topmenu/icones/new.png" class="iconetopmenu">New</a>
 		<img src="images/topmenu/divider.png" class="dividerbadgetopmenu">
