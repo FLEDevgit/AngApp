@@ -7,7 +7,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1"><!-- Optimize mobile viewport -->
 	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script><!-- load angular -->
-	<script src="core.js"></script>
+	<script src="/controller/index.js" ></script>
+	<script src="/controller/authent.js" ></script>
     <script src="/app/plugin/jquery/jquery.js"></script>
     <script src="/app/uikit/js/uikit.js"></script>
     <link rel="stylesheet" href="/plugin/uikit/css/uikit.css" /> 
@@ -17,12 +18,30 @@
 	<title>AngApp</title>
 </head>
 <body>
-<div>Login page
-<form>
+<body ng-controller="MainCtrl">
+  <!-- Form to get username & Password
+  <h3>Login</h3>
+   <form>
       <label>Username:</label><input type="text" ng-model="username" /></br></br>
       <label></label>Password:</label><input type="password" ng-model="password"></br>
       <button  type="submit" ng-click="submit()">login</button>
   </form>
-</div>
+
+ <h2>user table</h2>
+  <ul>
+    <li ng-repeat="user in myusers">
+      <a>{{ user.username }}</a>
+    </li>
+  </ul> -->
+
+	<div class="login-mod">
+  		<p class="login-title">Connexion</p>
+  		   <form>
+      <input type="text" ng-model="username" class="login-user" />
+      <input type="password" ng-model="password" class="login-user">
+      <button  type="submit" ng-click="submit()">login</button>
+  </form>
+  	</div>
+
 </body>
 </html>

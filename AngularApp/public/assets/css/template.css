@@ -163,3 +163,44 @@ a.itemtopmenu:hover {
 	position: absolute;
 	margin-top:	8px;
 }
+
+/* Login Page */
+
+.login-mod {
+	height: 450px;
+	width: 306px;
+	background-color: #2b2937;
+	border-radius: 10px;
+	margin-left: auto;
+ 	margin-right: auto;
+ 	margin-top: 55px;
+}
+
+.login-title {
+	color: #ffffff;
+	padding-top: 28px;
+	text-align: center;
+	font-size:	30px;
+}
+
+.login-user {
+	margin-top: 39px;
+	margin-left: 15px;
+	width: 274px;
+	border-radius: 7px;
+	background-color: #394264;
+	border-color: #0f0f11;
+	height: 52px;
+	border-width: 1px;
+}
+
+.login-pass {
+	margin-top: 18px;
+	margin-left: 15px;
+	width: 274px;
+	border-radius: 7px;
+	background-color: #394264;
+	border-color: #0f0f11;
+	height: 52px;
+	border-width: 1px;
+}
