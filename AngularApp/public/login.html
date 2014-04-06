@@ -18,7 +18,7 @@
 	<title>AngApp</title>
 </head>
 <body>
-<body ng-controller="MainCtrl">
+<body ng-controller="LoginCtrl">
   <!-- Form to get username & Password
   <h3>Login</h3>
    <form>
@@ -40,9 +40,9 @@
       <input type="text" ng-model="username" class="login-user" />
       <input type="password" ng-model="password" class="login-pass">
       <p class="login-button"><button  type="submit" ng-click="submit()" class="btn btn-primary">Connexion</button></p>
-      <p class="login-forgpass">Mot de passe oublié?</p>
-      <div class="login-fb"><img src="images/login/fb.png" class="login-fbicon" /><span class="login-smlib">Se connecter avec facebook</span></div>
-      <div class="login-tw"><img src="images/login/tw.png"  class="login-twicon" /><span class="login-smlib">Se connecter avec twitter</span></div>
+      <a class="login-forgotpass"><p class="login-forgpass">Mot de passe oublié?</p></a>
+      <div class="login-fb"><a href="#" class="alogin-fb"><img src="images/login/fb.png" class="login-fbicon" /><span class="login-smlib">Se connecter avec facebook</span></a></div>
+      <div class="login-tw"><a href="#" class="alogin-tw"><img src="images/login/tw.png"  class="login-twicon" /><span class="login-smlib">Se connecter avec twitter</span></a></div>
   </form>
   	</div>
 

@@ -1,6 +1,6 @@
 var app = angular.module('scotchTodo', []);
 
-app.controller('MainCtrl', function($scope) {
+app.controller('LoginCtrl', function($scope) {
   $scope.name = 'World';
 
   $scope.myusers = [{
