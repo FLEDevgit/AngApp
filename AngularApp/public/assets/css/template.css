@@ -204,3 +204,49 @@ a.itemtopmenu:hover {
 	height: 52px;
 	border-width: 1px;
 }
+
+.login-button {
+	text-align: center;
+	padding-top: 31px;
+}
+
+.login-forgpass {
+	color: #9095aa;
+	font-size: 12px;
+	text-align: center;
+}
+
+.login-fb {
+	height: 50px;
+	background-color: #014b96;
+	width: 100%;
+	color: #ffffff;
+	vertical-align: middle;
+	padding-top: 12px;
+}
+
+.login-tw {
+	height: 50px;
+	background-color: #31aae1;
+	width: 100%;
+	color: #ffffff;
+	padding-top: 12px;
+}
+
+.login-fbicon {
+	margin-right: 22px;
+	margin-left: 69px;
+	vertical-align: middle;
+}
+
+.login-twicon {
+	margin-right: 22px;
+	margin-left: 69px;
+	vertical-align: middle;
+}
+
+login-smlib{
+	vertical-align: middle;	
+}
+
+
