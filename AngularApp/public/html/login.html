@@ -9,6 +9,7 @@
 	<script src="../plugin/angularjs/angular.js"></script>
 	<script src="../js/controller/index.js" ></script>
 	<script src="../js/controller/authent.js" ></script>
+    <script src="../js/controller/app.js" ></script>
     <script src="../plugin/jquery/jquery.js"></script>
     <script src="../plugin/uikit/js/uikit.js"></script>
     <link rel="stylesheet" href="../plugin/uikit/css/uikit.css" /> 
@@ -21,15 +22,30 @@
 <body ng-controller="LoginCtrl">
 	<div class="login-mod">
   		<p class="login-title">Connexion</p>
-  		   <form>
-      <input type="text" ng-model="username" class="login-user" />
-      <input type="password" ng-model="password" class="login-pass">
-      <p class="login-button"><button  type="submit" ng-click="submit()" class="btn btn-primary">Connexion</button></p>
-      <a class="login-forgotpass"><p class="login-forgpass">Mot de passe oublié?</p></a>
-      <div class="login-fb"><a href="#" class="alogin-fb"><img src="images/login/fb.png" class="login-fbicon" /><span class="login-smlib">Se connecter avec facebook</span></a></div>
-      <div class="login-tw"><a href="#" class="alogin-tw"><img src="images/login/tw.png"  class="login-twicon" /><span class="login-smlib">Se connecter avec twitter</span></a></div>
-  </form>
+  		   <form ng-submit="login()">
+      			  <input type="text" ng-model="user.username" class="login-user" placeholder="Veuillez saisir votre login"/>
+			      <input type="password" ng-model="user.password" class="login-pass" placeholder="Veuillez saisir votre mot de passe">
+			      <p class="login-button"><button  type="submit" class="btn btn-primary">Connexion</button></p>
+			      <a class="login-forgotpass"><p class="login-forgpass">Mot de passe oublié?</p></a>
+			      <div class="login-fb"><a href="#" class="alogin-fb"><img src="../images/login/fb.png" class="login-fbicon" /><span class="login-smlib">Se connecter avec facebook</span></a></div>
+			      <div class="login-tw"><a href="#" class="alogin-tw"><img src="../images/login/tw.png"  class="login-twicon" /><span class="login-smlib">Se connecter avec twitter</span></a></div>
+  			</form>
   	</div>
+<!-- <h1>Login</h1>
+<form ng-submit="login()">
+  <p>
+    <label class="control-label">Username</label>
+  	<input type="text" placeholder="Username" ng-model="user.username" />
+  </p>
+  <p>
+    <label class="control-label">Password</label>
+  	<input type="password" placeholder="Password" ng-model="user.password" /><br/>
+  </p>
+  <p>
+    <button type="submit" class="btn btn-primary">Login</button>
+  </p>
+</form>
+ -->
 
 </body>
 </html>
