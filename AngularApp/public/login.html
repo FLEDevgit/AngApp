@@ -1,0 +1,50 @@
+<!-- index.html -->
+<!doctype html>
+
+<!-- ASSIGN OUR ANGULAR MODULE -->
+<html ng-app="scotchTodo">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"><!-- Optimize mobile viewport -->
+	<script src="/plugin/angularjs/angular.js"></script>
+	<script src="/controller/index.js" ></script>
+	<script src="/controller/authent.js" ></script>
+    <script src="/app/plugin/jquery/jquery.js"></script>
+    <script src="/app/uikit/js/uikit.js"></script>
+    <link rel="stylesheet" href="/plugin/uikit/css/uikit.css" /> 
+    <link rel="stylesheet" href="/plugin/bootstrap/css/bootstrap.css"><!-- load bootstrap -->
+	<link rel="stylesheet" href="/plugin/private/private.css">
+	<link rel="stylesheet" href="/assets/css/template.css">
+	<title>AngApp</title>
+</head>
+<body>
+<body ng-controller="LoginCtrl">
+  <!-- Form to get username & Password
+  <h3>Login</h3>
+   <form>
+      <label>Username:</label><input type="text" ng-model="username" /></br></br>
+      <label></label>Password:</label><input type="password" ng-model="password"></br>
+      <button  type="submit" ng-click="submit()">login</button>
+  </form>
+
+ <h2>user table</h2>
+  <ul>
+    <li ng-repeat="user in myusers">
+      <a>{{ user.username }}</a>
+    </li>
+  </ul> -->
+
+	<div class="login-mod">
+  		<p class="login-title">Connexion</p>
+  		   <form>
+      <input type="text" ng-model="username" class="login-user" />
+      <input type="password" ng-model="password" class="login-pass">
+      <p class="login-button"><button  type="submit" ng-click="submit()" class="btn btn-primary">Connexion</button></p>
+      <a class="login-forgotpass"><p class="login-forgpass">Mot de passe oublié?</p></a>
+      <div class="login-fb"><a href="#" class="alogin-fb"><img src="images/login/fb.png" class="login-fbicon" /><span class="login-smlib">Se connecter avec facebook</span></a></div>
+      <div class="login-tw"><a href="#" class="alogin-tw"><img src="images/login/tw.png"  class="login-twicon" /><span class="login-smlib">Se connecter avec twitter</span></a></div>
+  </form>
+  	</div>
+
+</body>
+</html>
