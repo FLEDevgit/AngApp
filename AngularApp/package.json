@@ -3,9 +3,11 @@
   "version"      : "1.0.0",
   "description"  : "Simple todo application.",
   "main"         : "server.js",
-  "author"       : "Scotch",
+  "author"       : "FLEDevgit",
   "dependencies" : {
     "express"    : ">=3.4.4",
     "mongoose"   : ">=3.6.2"
+    "passport": "*",
+    "passport-local": "*"
     }
   }

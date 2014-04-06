@@ -1,7 +1,7 @@
 var app = angular.module('scotchTodo', []);
 
-app.controller('MainCtrl', function($scope) {
-  $scope.name = 'World';
+app.controller('LoginCtrl', function($scope) {
+  /*$scope.name = 'World';*/
 
   $scope.myusers = [{
     username: 'admin',
@@ -20,8 +20,8 @@ app.controller('MainCtrl', function($scope) {
         password: pass
       });
       
-      /*$location.path('/index.html');*/
-      $window.location.href = '/index.html';
+      $location.path('/index.html');
+      /*$window.location.href = '/index.html';*/
       
     } else {
       alert("Invalid Login");

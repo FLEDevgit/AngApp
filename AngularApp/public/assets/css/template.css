@@ -223,6 +223,17 @@ a.itemtopmenu:hover {
 	color: #ffffff;
 	vertical-align: middle;
 	padding-top: 12px;
+	
+}
+
+.alogin-fb{
+	color: #ffffff;
+}
+
+a.alogin-fb:hover {
+	text-decoration: none;
+	color:	#fff;
+	opacity: 0.8;
 }
 
 .login-tw {
@@ -231,6 +242,16 @@ a.itemtopmenu:hover {
 	width: 100%;
 	color: #ffffff;
 	padding-top: 12px;
+}
+
+.alogin-tw {
+	color: #ffffff;
+}
+
+a.alogin-tw:hover {
+	text-decoration: none;
+	color:	#fff;
+	opacity: 0.8;
 }
 
 .login-fbicon {
@@ -249,4 +270,12 @@ login-smlib{
 	vertical-align: middle;	
 }
 
+.login-forgotpass {
+	color: #9095aa;
+}
 
+a.login-forgotpass:hover {
+	text-decoration: none;
+	color:	#61636b;
+	opacity: 0.8;
+}
